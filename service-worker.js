@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fat-wallet-front/precache-manifest.0046369bafd34311de053b9a4fc8c8cb.js"
+  "/fat-wallet-front/precache-manifest.59a894843aaa06f6923ee9fd3b6e1957.js"
 );
 
 self.addEventListener('message', (event) => {
