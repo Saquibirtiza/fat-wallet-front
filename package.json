@@ -2,7 +2,7 @@
   "name": "fat-wallet-front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://acesadaf.github.io/fat-wallet-front",
+  "homepage": "https://saquibirtiza.github.io/fat-wallet-front",
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "@testing-library/jest-dom": "^4.2.4",

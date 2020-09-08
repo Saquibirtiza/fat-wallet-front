@@ -1,98 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Fat Wallet
 
-## Available Scripts
+### Description:
 
-In the project directory, you can run:
+Fat Wallet is a web based expense tracker. Users can login to their account and add, delete or update expenses as they incur. They can categorize their expenses to one of the five default categories or they can create their own catepgory. The application then displays infographics based on the user data that helps them visualize their spending habits and change them if necessary. To try the demo go to this link:<br />
+https://saquibirtiza.github.io/fat-wallet-front/#/
 
-### `npm start`
+### Frameworks:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ReactJs is used to build the frontend of the aplication whereas for the backend, Django is used. All user data is stored using SQL in Postgres.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Key Components:
 
-### `npm test`
+### Signin Page and Home:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The first thing that a user is greated with when he/she first launches the app, is the signin/signup page. Once the user enters his/her credentials, the app redirects the user to the homepage via a short welcome animation. The user can then swtich between the infographics, see important stats about his/her expenses or add new expenses. While adding an expense, the user can also add new categories if needed.<br />
 
-### `npm run build`
+<!-- ![Welcome Page demo](demo/gig.gif) -->
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Expense List:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Besides being able to see the details of the all the expenses the user has entered so far, he/she can also do the following:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-
-
-
------------------------------------------------------
-Material UI for table:
-https://material-table.com/#/docs/features/styling
--Muithemeprovider needed
--added stylesheet
--installed material-ui
-
-
-Recharts for Expense form:
-https://recharts.org/en-US/
-
-Signin Page:
-https://bootsnipp.com/snippets/7nk08
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Update any expense
+- Delete any expense
+- Sort table according to column
+- Search for a particular expense by name
+It is to be noted that any changes made in the table are reflected in the graphs and statistics in the homepage. <br />
+<!-- ![Signin demo](demo/signup.gif) -->
