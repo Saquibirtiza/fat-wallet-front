@@ -30,7 +30,7 @@ Besides being able to see the details of the all the expenses the user has enter
 - Update any expense.
 - Delete any expense.
 - Sort table according to column.
-- Search for a particular expense by name.<br /><br />
+- Search for a particular expense by name.<br />
 
-  It is to be noted that any changes made in the table are reflected in the graphs and statistics in the homepage. <br />
+  It is to be noted that any changes made in the table are reflected in the graphs and statistics in the homepage. <br /><br />
   ![Signin demo](demo/demo2.gif)
